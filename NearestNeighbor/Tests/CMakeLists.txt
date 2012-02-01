@@ -1,0 +1,28 @@
+# 
+# add_executable(TestDVPTree TestDVPTree.cpp)
+# target_link_libraries(TestDVPTree)
+# add_test(TestDVPTree TestDVPTree)
+# 
+# add_executable(TestDVPTreeHypercubeTopology TestDVPTreeHypercubeTopology.cpp)
+# target_link_libraries(TestDVPTreeHypercubeTopology)
+# add_test(TestDVPTreeHypercubeTopology TestDVPTreeHypercubeTopology)
+# 
+# add_executable(TestDVPTreeGridGraph TestDVPTreeGridGraph.cpp)
+# target_link_libraries(TestDVPTree)
+# add_test(TestDVPTreeGridGraph TestDVPTreeGridGraph)
+# 
+# add_executable(TestLinearNeighborSearchGridGraph TestLinearNeighborSearchGridGraph.cpp)
+# target_link_libraries(TestLinearNeighborSearchGridGraph)
+# add_test(TestLinearNeighborSearchGridGraph TestLinearNeighborSearchGridGraph)
+# 
+# add_executable(TestLinearNeighborSearchSubset TestLinearNeighborSearchSubset.cpp)
+# target_link_libraries(TestLinearNeighborSearchSubset)
+# add_test(TestLinearNeighborSearchSubset TestLinearNeighborSearchSubset)
+
+add_executable(TestCustomTopology TestCustomTopology.cpp)
+target_link_libraries(TestCustomTopology)
+add_test(TestCustomTopology TestCustomTopology)
+
+# add_executable(TestDVPTreeImagePatches TestDVPTreeImagePatches.cpp ../../ImageProcessing/Mask.cpp)
+# target_link_libraries(TestDVPTreeImagePatches ${ITK_LIBRARIES} libHelpers)
+# add_test(TestDVPTreeImagePatches TestDVPTreeImagePatches)
